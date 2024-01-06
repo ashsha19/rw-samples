@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.todo-item-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todo-item-container p {
+  width: 200px;
+}
+
+.todo-item-container button:last-child {
+  margin-left: 5px;
+}
+
+.todo-item-container button:first-child {
+  margin-left: 0px;
+}
